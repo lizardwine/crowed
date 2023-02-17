@@ -224,7 +224,7 @@ while not opc in ("0","exit"):
         os.system("clear")
     elif opc == "clear":
         os.system("clear")
+    elif opc == "__INIT__":
+        write_data("[       ]",user_password)
     else:
         print(f"{Fore.LIGHTYELLOW_EX}Unknow option: \"{Fore.RED}{opc}{Fore.LIGHTYELLOW_EX}\"")
-    """elif opc == "__RESET__":
-        write_data("[       ]",user_password)"""
